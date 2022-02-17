@@ -1,7 +1,14 @@
 # Docker_PHP7.2-apache-master-
 Dockerを使用してのPHP実行環境です。
 
-#### ①Dockerをインストール(https://www.docker.com/) 
-#### ②ターミナルでファイルのディレクトリに移動し、以下のコマンドを実行
+### 手順
+#### ①Dockerをインストール(https://www.docker.com/products/docker-desktop) 
+#### ②ターミナルで、ダウンロードしたファイルのディレクトリに移動し、以下のコマンドを実行する
 #### 「docker-compose up -d --build」 
-#### ③PHPの実行環境の完成。
+#### ③PHPの実行環境の完成です。
+
+##### ・php
+##### ・pypmyadmin
+##### ・mysql
+##### のDockerイメージが自動でダウンロードされます。
+##### DBへのリンクは、indexに記載してます。DB情報と接続処理はDB.phpを参照してください。

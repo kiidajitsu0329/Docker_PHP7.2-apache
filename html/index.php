@@ -19,6 +19,7 @@ include('./DB.php');
 			<li><a href="./DB.php">DBへの接続情報はエディタでこのファイルを見てください</a></li>
 		</ul>
 	</header>
+	
 	<!-- メインコンテンツ -->
 	<main>
 		<section>
@@ -27,6 +28,7 @@ include('./DB.php');
 			</div>
 		</section>
 	</main>
+	
 	<!-- フッター -->
 	<footer></footer>
 </body>
